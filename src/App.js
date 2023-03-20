@@ -7,7 +7,7 @@ import {
   // Possibility,
   // Features,
   // WhatGPT3,
-  // Header,
+  Header,
 } from "./containers";
 import { Cta, Brand, Navbar } from "./components";
 
@@ -17,16 +17,13 @@ const Possibility = React.lazy(() =>
 );
 const Features = React.lazy(() => import("./containers/features/Features"));
 const WhatGPT3 = React.lazy(() => import("./containers/whatGPT3/WhatGPT3"));
-const Header = React.lazy(() => import("./containers/header/Header"));
 
 const App = () => {
   return (
     <div className="App">
       <div className="gradient__bg">
         <Navbar />
-        <Suspense fallback={<div>Loading...</div>}>
-          <Header />
-        </Suspense>
+        <Header />
       </div>
       <Brand />
       <Suspense fallback={<div>Loading...</div>}>
