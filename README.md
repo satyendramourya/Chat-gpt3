@@ -17,4 +17,4 @@ Welcome to Gericht, a family-owned restaurant that has been serving delicious me
 3. Run the application with `npm start`.
 
 ## Check Live Project
-<a href="https://gericht-restaurant-ecru.vercel.app/"> Here. </a> 
+<a href="https://chat-gpt3-pi.vercel.app/"> Here. </a> 
